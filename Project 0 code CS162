@@ -1,0 +1,14 @@
+#This is some test code for Project_0 of CS162.
+
+"""Count numbers between 0-51. Replace every fifth didget with Benjamin"""
+
+myname = "Benjamin"
+
+#print(myname)
+
+#code repeats my name every fifth didget.
+for x in range(51):
+    if x % 5 == 4:
+        print(myname)
+    else:
+        print(x)
